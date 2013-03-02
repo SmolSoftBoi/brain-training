@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keypad"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:stretchColumns="*" >
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/keypad_1"
+            android:text="@string/keypad_1" >
+        </Button>
+
+        <Button
+            android:id="@+id/keypad_2"
+            android:text="@string/keypad_2" >
+        </Button>
+
+        <Button
+            android:id="@+id/keypad_3"
+            android:text="@string/keypad_3" >
+        </Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/keypad_4"
+            android:text="@string/keypad_4" >
+        </Button>
+
+        <Button
+            android:id="@+id/keypad_5"
+            android:text="@string/keypad_5" >
+        </Button>
+
+        <Button
+            android:id="@+id/keypad_6"
+            android:text="@string/keypad_6" >
+        </Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/keypad_7"
+            android:text="@string/keypad_7" >
+        </Button>
+
+        <Button
+            android:id="@+id/keypad_8"
+            android:text="@string/keypad_8" >
+        </Button>
+
+        <Button
+            android:id="@+id/keypad_9"
+            android:text="@string/keypad_9" >
+        </Button>
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/keypad_delete"
+            android:text="@string/keypad_delete" >
+        </Button>
+
+        <Button
+            android:id="@+id/keypad_0"
+            android:text="@string/keypad_0" >
+        </Button>
+
+        <Button
+            android:id="@+id/keypad_negative"
+            android:text="@string/keypad_negative" >
+        </Button>
+    </TableRow>
+
+    <TableTow>
+
+        <Button
+            android:id="@+id/keypad_hash"
+            android:text="@string/keypad_hash" >
+        </Button>
+    </TableTow>
+
+</TableLayout>
