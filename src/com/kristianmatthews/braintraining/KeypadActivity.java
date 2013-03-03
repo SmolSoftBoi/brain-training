@@ -25,6 +25,7 @@ public class KeypadActivity extends Dialog {
 		super.onCreate(savedInstanceState);
 
 		setTitle(R.string.keypad_title);
+		// TODO: Fix set content view
 		setContentView(R.layout.activity_keypad);
 		findViews();
 		setListeners();
